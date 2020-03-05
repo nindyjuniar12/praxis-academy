@@ -11,7 +11,7 @@ public class datamain {
         mobilDisewa.setMerek("Suzuki");
         mobilDisewa.setJenis("MiniBus");
 
-        penyewaan diSewa=new penyewaan();
+        penyewa diSewa = new penyewa();
         diSewa.sewa(anggota, mobilDisewa);
         diSewa.lihatDataPenyewa();
 

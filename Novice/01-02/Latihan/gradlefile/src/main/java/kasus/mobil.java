@@ -19,3 +19,4 @@ public class mobil {
     public String getMerek(){
         return Merek;
     }
+}

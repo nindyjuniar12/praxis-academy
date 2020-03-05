@@ -19,4 +19,6 @@ public class datapenyewa{
     public String getAlamat(){
         return Alamat;
     }
+}
+
     

@@ -1,6 +1,6 @@
 package kasus;
 
-public class penyewaan {
+public class penyewa {
      public mobil mobilDisewa;
      public datapenyewa anggota;
 
