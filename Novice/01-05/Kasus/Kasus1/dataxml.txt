@@ -1,0 +1,7 @@
+<?xml version = "1.0"?>
+<Class>
+    <student>
+        <firstname>Nindy</firstname>
+        <marks>1700016057</marks>
+    </student>
+</Class>
