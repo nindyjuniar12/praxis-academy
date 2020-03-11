@@ -165,7 +165,7 @@ public class VendingMachineImpl implements VendingMachine {
         return hasChange;
     }
 
-    private void updateCashInventory(List change) {
+    private void updateCashInventory(List<Coin> change) {
         for(Coin c : change){
             cashInventory.deduct(c);
         }

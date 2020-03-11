@@ -1,4 +1,4 @@
-package latihan1;
+package classes;
 
 public class Bicycle {
         
