@@ -22,31 +22,21 @@ repositories {
 
 dependencies {
     // This dependency is used by the application.
-    //implementation 'com.google.guava:guava:28.1-jre'
+    implementation 'com.google.guava:guava:28.1-jre'
 
     // Use JUnit Jupiter API for testing.
-    //testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.2'
-
-    // https://mvnrepository.com/artifact/org.functionaljava/functionaljava
-    compile group: 'org.functionaljava', name: 'functionaljava', version: '4.7'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.2'
 
     // Use JUnit Jupiter Engine for testing.
-    //testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.2'
-
-    testImplementation 'junit:junit:4.12'
-
-    Implementation 'junit:junit:4.12'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.2'
 }
 
 application {
     // Define the main class for the application.
-    mainClassName = 'Latihan2.Array_foldLeft'
+    mainClassName = 'latihan1.HelloThread'
 }
 
 test {
     // Use junit platform for unit tests
     useJUnitPlatform()
 }
-
-
-
