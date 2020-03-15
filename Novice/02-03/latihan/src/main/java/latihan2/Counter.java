@@ -1,10 +1,8 @@
 package latihan2;
 
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import javax.print.DocFlavor.STRING;
 public class Counter implements Runnable{
     private final MainApp mainApp;
     private final int loopLimit;
