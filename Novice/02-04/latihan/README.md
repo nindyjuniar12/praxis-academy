@@ -28,3 +28,7 @@ Structural Design Patterns
 Bridge Pattren
 - Decorator Pattern
 
+
+Java Dependency Injection
+digunakan untuk menghapus dependency hard-code dan membuat aplikasi kita secara longgar digabungkan, diperluas, dan di dikelola. Java Dependency Injection diimplementasikan untuk memindahkan resolusi ketergantungan dari waktu kompilasi ke runtime.
+
