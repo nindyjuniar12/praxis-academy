@@ -1,4 +1,4 @@
-package kasus;
+package kasus.javaconcurrencyessentialstutorial.iintroductiontothreadsandconcurrency;
 
 public class MyRunnable implements Runnable
 {

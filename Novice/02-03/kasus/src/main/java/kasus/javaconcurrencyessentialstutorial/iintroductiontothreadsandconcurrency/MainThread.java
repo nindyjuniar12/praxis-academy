@@ -1,4 +1,4 @@
-package kasus;
+package kasus.javaconcurrencyessentialstutorial.iintroductiontothreadsandconcurrency;
 
 import java.lang.Thread.State;
 

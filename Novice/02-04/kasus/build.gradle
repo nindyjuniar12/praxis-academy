@@ -21,19 +21,14 @@ repositories {
 }
 
 dependencies {
-    // https://mvnrepository.com/artifact/org.functionaljava/functionaljava
-    compile group: 'org.functionaljava', name: 'functionaljava', version: '4.7'
-
     // This dependency is used by the application.
-    //implementation 'com.google.guava:guava:28.1-jre'
+    implementation 'com.google.guava:guava:28.1-jre'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
-
-    implementation 'junit:junit:4.12'
 }
 
 application {
     // Define the main class for the application.
-    mainClassName = 'kasus.javaconcurrencyessentialstutorial.iintroductiontothreadsandconcurrency.MyThread'
+    mainClassName = 'kasus.App'
 }

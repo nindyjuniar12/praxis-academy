@@ -1,4 +1,4 @@
-package kasus;
+package kasus.javaconcurrencyessentialstutorial.iintroductiontothreadsandconcurrency;
 
 public class MyThread extends Thread{
     public MyThread(String name){
